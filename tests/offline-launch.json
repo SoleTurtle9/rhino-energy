@@ -1,0 +1,4 @@
+{
+  "result": "PASS",
+  "method": "Opened index.html through file:// with browser network disabled; clicked Start; confirmed level HUD and canvas, no JavaScript exceptions."
+}

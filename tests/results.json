@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-21T19:32:19.940Z",
+  "browser": "151.0.7922.34",
+  "scope": "Automated component/integration checks; targeted positioning uses test adapter. Not a complete manual playthrough or user study.",
+  "results": [
+    {
+      "test": "Movement uses keyboard",
+      "result": "PASS"
+    },
+    {
+      "test": "Jump rises and lands",
+      "result": "PASS"
+    },
+    {
+      "test": "Escape pauses simulation",
+      "result": "PASS"
+    },
+    {
+      "test": "Locked exit requires energy",
+      "result": "PASS"
+    },
+    {
+      "test": "Dash destroys blocking wall",
+      "result": "PASS"
+    },
+    {
+      "test": "Checkpoint and energy survive falling",
+      "result": "PASS"
+    },
+    {
+      "test": "Reload restores state and wall",
+      "result": "PASS"
+    },
+    {
+      "test": "Level 1 exit advances to level 2",
+      "result": "PASS"
+    },
+    {
+      "test": "Level 2 both switches required",
+      "result": "PASS"
+    },
+    {
+      "test": "Damage consumes health; third hit respawns",
+      "result": "PASS"
+    },
+    {
+      "test": "Level 2 exit advances to level 3",
+      "result": "PASS"
+    },
+    {
+      "test": "All three final nodes and generator finish game",
+      "result": "PASS"
+    },
+    {
+      "test": "Replay starts fresh at level 1",
+      "result": "PASS"
+    },
+    {
+      "test": "No JavaScript exceptions",
+      "result": "PASS"
+    }
+  ],
+  "errors": []
+}

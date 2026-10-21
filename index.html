@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Носорог — Возвращение энергии</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="world"></div>
+  <header><a class="brand" href="index.html">R<span>↗</span> / RHINO</a><div class="edition">ВОЗВРАЩЕНИЕ ЭНЕРГИИ <span>•</span> ИГРОВОЙ ПРОЕКТ</div><button id="sound" aria-label="Включить звук">Звук: выкл.</button></header>
+  <section id="hud" hidden>
+    <div class="level-tag">ЭКСПЕДИЦИЯ <span id="levelNumber">01 / 03</span></div>
+    <h1 id="levelTitle"></h1><p id="objective"></p>
+    <div class="stats"><span id="health"></span><span id="progress"></span><span id="timer"></span></div>
+    <div class="route"><i id="routeFill"></i></div>
+    <p class="checkpoint" id="checkpoint">◈ Начало маршрута</p>
+  </section>
+  <div id="prompt" hidden></div><div id="toast" role="status"></div>
+  <section id="menu" class="overlay"><div class="card"><div class="eyebrow">ТРИ МИРА · ОДИН ГЕРОЙ</div><h2>Большому миру<br>нужна твоя <em>энергия.</em></h2><p>Город погас. Проведи Носорога через парящие острова, запусти узлы и верни свет домой.</p><div class="chips"><span>01 Учебный двор</span><span>02 Промышленный переход</span><span>03 Энергетическое ядро</span></div><button class="primary" id="start">Начать путешествие <span>↗</span></button><button id="resume" hidden>Продолжить сохранение</button><div class="hint">WASD / стрелки — движение · Пробел — прыжок<br>Shift — рывок · E — взаимодействие · Esc — пауза</div></div></section>
+  <section id="pause" class="overlay" hidden><div class="card small"><div class="eyebrow">ПЕРЕДЫШКА</div><h2>Мир подождёт.</h2><p>Прогресс сохраняется у контрольных точек и после активации целей.</p><button class="primary" id="continue">Продолжить ↗</button><button id="restart">Начать этот уровень заново</button></div></section>
+  <section id="complete" class="overlay" hidden><div class="card small"><div class="eyebrow" id="completeTag"></div><h2 id="completeTitle"></h2><p id="completeText"></p><button class="primary" id="next"></button></div></section>
+  <footer><span><b>W A S D</b> движение <b>SPACE</b> прыжок <b>SHIFT</b> рывок <b>E</b> действие</span><span id="status">СОБСТВЕННЫЙ ПЕРСОНАЖ / 3D</span></footer>
+  <div id="touch"><div class="pad"><button data-key="ArrowUp">↑</button><div><button data-key="ArrowLeft">←</button><button data-key="ArrowDown">↓</button><button data-key="ArrowRight">→</button></div></div><div><button data-key="Space">Прыжок</button><button data-key="ShiftLeft">Рывок</button><button data-key="KeyE">E</button></div></div>
+  <script src="vendor/three.min.js"></script><script src="game.js"></script>
+</body>
+</html>
