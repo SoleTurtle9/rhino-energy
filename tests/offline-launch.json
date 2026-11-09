@@ -1,4 +1,7 @@
 {
+  "date": "2026-11-09T09:56:04.347Z",
+  "browser": "151.0.7922.34",
   "result": "PASS",
-  "method": "Opened index.html through file:// with browser network disabled; clicked Start; confirmed level HUD and canvas, no JavaScript exceptions."
+  "method": "file://, browser network disabled, Start, visible canvas, active WebGL2 context, expected level title, no JavaScript exceptions",
+  "source": "additional-checks.cjs"
 }

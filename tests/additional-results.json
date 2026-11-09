@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-09T09:56:04.347Z",
+  "browser": "151.0.7922.34",
+  "scope": "Targeted setup uses diagnostic positioning; platform motion, trap collision and pause run in normal simulation. Offline launch uses file:// with network disabled.",
+  "results": [
+    {
+      "test": "Wall blocks walking without dash",
+      "result": "PASS"
+    },
+    {
+      "test": "Moving platform carries standing player",
+      "result": "PASS"
+    },
+    {
+      "test": "Pause freezes platform and hazard phase",
+      "result": "PASS"
+    },
+    {
+      "test": "Active trap causes collision damage",
+      "result": "PASS"
+    },
+    {
+      "test": "Offline file launch has rendered scene",
+      "result": "PASS"
+    }
+  ],
+  "errors": []
+}

@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-21T19:34:57.075Z",
+  "date": "2026-11-09T09:56:35.608Z",
   "result": "PASS",
   "method": "All three levels traversed using browser keyboard events, without teleportation, level skipping or modifying player state. Test adapter used only for reading state.",
   "finalState": {
@@ -10,7 +10,7 @@
       "y": 0,
       "z": -36.04999999999984,
       "vy": 0,
-      "hp": 3,
+      "hp": 2,
       "invulnerable": 0,
       "grounded": true,
       "platform": null,
@@ -26,7 +26,12 @@
     ],
     "checkpoint": true,
     "deaths": 0,
-    "elapsed": 13.750000000000128,
+    "elapsed": 13.90000000000013,
+    "worldTime": 41.141699999998735,
+    "movers": [],
+    "hazards": [
+      true
+    ],
     "broken": [
       true
     ]
